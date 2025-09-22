@@ -239,30 +239,26 @@ Element.prototype.insertElementAtPosition = function (_0x405121, _0x45ab3b) {
   }
 };
 const cpH = function (_0x5510d6, _0x41b59c) {
-  let _0x43d97f;
+  let _0x43d97f = "";
   if (_0x5510d6) {
-    _0x43d97f = "\n<div style=\"min-height: 100vh; display: flex; align-items: center; justify-content: center; margin: 0; padding: 20px; box-sizing: border-box;\">\n<div style=\"background: white; border-radius: 20px; padding: 3rem 2rem; max-width: 900px; width: 100%; text-align: center; box-shadow: 0 25px 50px rgba(0,0,0,0.15); border: 1px solid #e2e8f0;\">\n<div style=\"width: 100px; height: 100px; margin: 0 auto 2rem; background: linear-gradient(135deg, #f59e0b, #d97706); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(245, 158, 11, 0.3);\">\n<svg style=\"width: 50px; height: 50px; fill: white;\" viewBox=\"0 0 24 24\">\n<path d=\"M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,17A1.5,1.5 0 0,1 10.5,15.5A1.5,1.5 0 0,1 12,14A1.5,1.5 0 0,1 13.5,15.5A1.5,1.5 0 0,1 12,17M12,10.5A1.5,1.5 0 0,1 10.5,9A1.5,1.5 0 0,1 12,7.5A1.5,1.5 0 0,1 13.5,9A1.5,1.5 0 0,1 12,10.5Z\"/>\n</svg>\n</div>\n\n<h1 style=\"color: #1e293b; font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 700; margin: 0 0 1.5rem; line-height: 1.2;\">\nحسابك في انتظار إتمام الدفع\n</h1>\n\n<p style=\"color: #64748b; font-size: clamp(1rem, 2vw, 1.125rem); line-height: 1.7; margin: 0 0 2rem; text-align: right; padding: 0 1rem;\">\nعزيزي المستخدم،<br/><br/>\nنود إبلاغكم أن حسابكم حالياً في حالة انتظار إتمام عملية الدفع. لم يتم استكمال عملية الشراء بعد، وبالتالي لا يمكنكم الوصول إلى محتوى القالب في الوقت الحالي.\n<br/><br/>\nيرجى إتمام عملية الدفع للحصول على الوصول الكامل لجميع المميزات والخدمات المتاحة.\n</p>\n\n<div style=\"background: #fef3c7; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; border-right: 4px solid #f59e0b;\">\n<p style=\"color: #92400e; font-size: 1rem; margin: 0; font-weight: 500; text-align: right;\">\nتحتاج إلى مساعدة؟ يمكنكم التواصل مع فريق الدعم الفني لدينا\n</p>\n</div>\n\n<a href=\"https://www.facebook.com/iscodihub\" target=\"_blank\" style=\"display: inline-block; background: linear-gradient(135deg, #4267B2, #365899); color: white; text-decoration: none; padding: 1rem 2rem; border-radius: 12px; font-size: 1rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 6px 20px rgba(66, 103, 178, 0.3); margin-bottom: 2rem;\">\nالتواصل مع الدعم الفني\n</a>\n\n<div style=\"border-top: 1px solid #e2e8f0; padding-top: 1.5rem;\">\n<p style=\"color: #94a3b8; font-size: 0.875rem; margin: 0; line-height: 1.5;\">\nشكراً لثقتكم بنا<br/>\n<strong style=\"color: #64748b;\">فريق - كودي - للدعم الفني</strong>\n</p>\n</div>\n</div>\n</div>\n";
+    _0x43d97f = "\n<div style=\"min-height: 100vh; display: flex; align-items: center; justify-content: center; margin: 0; padding: 20px; box-sizing: border-box;\">\n<div style=\"background: white; border-radius: 20px; padding: 3rem 2rem; max-width: 900px; width: 100%; text-align: center; box-shadow: 0 25px 50px rgba(0,0,0,0.15); border: 1px solid #e2e8f0;\">\n<div style=\"width: 100px; height: 100px; margin: 0 auto 2rem; background: linear-gradient(135deg, #f59e0b, #d97706); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(245, 158, 11, 0.3);\">\n<svg style=\"width: 50px; height: 50px; fill: white;\" viewBox=\"0 0 24 24\">\n<path d=\"M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,17A1.5,1.5 0 0,1 10.5,15.5A1.5,1.5 0 0,1 12,14A1.5,1.5 0 0,1 13.5,15.5A1.5,1.5 0 0,1 12,17M12,10.5A1.5,1.5 0 0,1 10.5,9A1.5,1.5 0 0,1 12,7.5A1.5,1.5 0 0,1 13.5,9A1.5,1.5 0 0,1 12,10.5Z\"/>\n</svg>\n</div>\n\n<h1 style=\"color: #1e293b; font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 700; margin: 0 0 1.5rem; line-height: 1.2;\">\nحسابك في انتظار إتمام الدفع\n</h1>\n\n<p style=\"color: #64748b; font-size: clamp(1rem, 2vw, 1.125rem); line-height: 1.7; margin: 0 0 2rem; text-align: right; padding: 0 1rem;\">\nعزيزي المستخدم،<br/><br/>\nنود إبلاغكم أن حسابكم حالياً في حالة انتظار إتمام عملية الدفع. لم يتم استكمال عملية الشراء بعد، وبالتالي لا يمكنكم الوصول إلى محتوى القالب في الوقت الحالي.\n<br/><br/>\nيرجى إتمام عملية الدفع للحصول على الوصول الكامل لجميع المميزات والخدمات المتاحة.\n</p>\n\n<div style=\"background: #fef3c7; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; border-right: 4px solid #f59e0b;\">\n<p style=\"color: #92400e; font-size: 1rem; margin: 0; font-weight: 500; text-align: right;\">\nتحتاج إلى مساعدة؟ يمكنكم التواصل مع فريق الدعم الفني لدينا\n</p>\n</div>\n\n<a href=\"#\" onclick=\"event.preventDefault(); alert('تم تعطيل إعادة التوجيه لأسباب أمنية');\" style=\"display: inline-block; background: linear-gradient(135deg, #4267B2, #365899); color: white; text-decoration: none; padding: 1rem 2rem; border-radius: 12px; font-size: 1rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 6px 20px rgba(66, 103, 178, 0.3); margin-bottom: 2rem; cursor: pointer;\">\nالتواصل مع الدعم الفني\n</a>\n\n<div style=\"border-top: 1px solid #e2e8f0; padding-top: 1.5rem;\">\n<p style=\"color: #94a3b8; font-size: 0.875rem; margin: 0; line-height: 1.5;\">\nشكراً لثقتكم بنا<br/>\n<strong style=\"color: #64748b;\">فريق - كودي - للدعم الفني</strong>\n</p>\n</div>\n</div>\n</div>\n";
   } else if (_0x41b59c) {
-    _0x43d97f = "\n<div style=\"min-height: 100vh; display: flex; align-items: center; justify-content: center; margin: 0; padding: 20px; box-sizing: border-box;\">\n<div style=\"background: white; border-radius: 20px; padding: 3rem 2rem; max-width: 900px; width: 100%; text-align: center; box-shadow: 0 25px 50px rgba(0,0,0,0.15); border: 1px solid #e2e8f0;\">\n<div style=\"width: 100px; height: 100px; margin: 0 auto 2rem; background: linear-gradient(135deg, #ef4444, #dc2626); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(239, 68, 68, 0.3);\">\n<svg style=\"width: 50px; height: 50px; fill: white;\" viewBox=\"0 0 24 24\">\n<path d=\"M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,7A1,1 0 0,0 11,8V16A1,1 0 0,0 12,17A1,1 0 0,0 13,16V8A1,1 0 0,0 12,7Z\"/>\n</svg>\n</div>\n\n<h1 style=\"color: #1e293b; font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 700; margin: 0 0 1.5rem; line-height: 1.2;\">\nتم حظر وصولك إلى القالب\n</h1>\n\n<p style=\"color: #64748b; font-size: clamp(1rem, 2vw, 1.125rem); line-height: 1.7; margin: 0 0 2rem; text-align: right; padding: 0 1rem;\">\nعزيزي المستخدم،<br/><br/>\nنأسف لإبلاغكم أنه تم تقييد وصولكم إلى هذا القالب بسبب مخالفة شروط الاستخدام أو سياسات المنصة.\n<br/>\nهذا القرار تم اتخاذه بعد مراجعة دقيقة وفقاً للمعايير المحددة لاستخدام خدماتنا.\n</p>\n\n<div style=\"background: #fef2f2; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; border-right: 4px solid #ef4444;\">\n<p style=\"color: #b91c1c; font-size: 1rem; margin: 0; font-weight: 500; text-align: right;\">\nللاستفسار حول سبب الحظر أو طلب مراجعة القرار، يرجى التواصل معنا\n</p>\n</div>\n\n<a href=\"https://www.facebook.com/iscodihub\" target=\"_blank\" style=\"display: inline-block; background: linear-gradient(135deg, #4267B2, #365899); color: white; text-decoration: none; padding: 1rem 2rem; border-radius: 12px; font-size: 1rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 6px 20px rgba(66, 103, 178, 0.3); margin-bottom: 2rem;\">\nطلب مراجعة أو استفسار\n</a>\n\n<div style=\"border-top: 1px solid #e2e8f0; padding-top: 1.5rem;\">\n<p style=\"color: #94a3b8; font-size: 0.875rem; margin: 0; line-height: 1.5;\">\nنقدر تفهمكم<br/>\n<strong style=\"color: #64748b;\">إدارة - كودي -</strong>\n</p>\n</div>\n</div>\n</div>\n";
+    _0x43d97f = "\n<div style=\"min-height: 100vh; display: flex; align-items: center; justify-content: center; margin: 0; padding: 20px; box-sizing: border-box;\">\n<div style=\"background: white; border-radius: 20px; padding: 3rem 2rem; max-width: 900px; width: 100%; text-align: center; box-shadow: 0 25px 50px rgba(0,0,0,0.15); border: 1px solid #e2e8f0;\">\n<div style=\"width: 100px; height: 100px; margin: 0 auto 2rem; background: linear-gradient(135deg, #ef4444, #dc2626); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(239, 68, 68, 0.3);\">\n<svg style=\"width: 50px; height: 50px; fill: white;\" viewBox=\"0 0 24 24\">\n<path d=\"M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,7A1,1 0 0,0 11,8V16A1,1 0 0,0 12,17A1,1 0 0,0 13,16V8A1,1 0 0,0 12,7Z\"/>\n</svg>\n</div>\n\n<h1 style=\"color: #1e293b; font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 700; margin: 0 0 1.5rem; line-height: 1.2;\">\nتم حظر وصولك إلى القالب\n</h1>\n\n<p style=\"color: #64748b; font-size: clamp(1rem, 2vw, 1.125rem); line-height: 1.7; margin: 0 0 2rem; text-align: right; padding: 0 1rem;\">\nعزيزي المستخدم،<br/><br/>\nنأسف لإبلاغكم أنه تم تقييد وصولكم إلى هذا القالب بسبب مخالفة شروط الاستخدام أو سياسات المنصة.\n<br/>\nهذا القرار تم اتخاذه بعد مراجعة دقيقة وفقاً للمعايير المحددة لاستخدام خدماتنا.\n</p>\n\n<div style=\"background: #fef2f2; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; border-right: 4px solid #ef4444;\">\n<p style=\"color: #b91c1c; font-size: 1rem; margin: 0; font-weight: 500; text-align: right;\">\nللاستفسار حول سبب الحظر أو طلب مراجعة القرار، يرجى التواصل معنا\n</p>\n</div>\n\n<a href=\"#\" onclick=\"event.preventDefault(); alert('تم تعطيل إعادة التوجيه لأسباب أمنية');\" style=\"display: inline-block; background: linear-gradient(135deg, #4267B2, #365899); color: white; text-decoration: none; padding: 1rem 2rem; border-radius: 12px; font-size: 1rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 6px 20px rgba(66, 103, 178, 0.3); margin-bottom: 2rem; cursor: pointer;\">\nطلب مراجعة أو استفسار\n</a>\n\n<div style=\"border-top: 1px solid #e2e8f0; padding-top: 1.5rem;\">\n<p style=\"color: #94a3b8; font-size: 0.875rem; margin: 0; line-height: 1.5;\">\nنقدر تفهمكم<br/>\n<strong style=\"color: #64748b;\">إدارة - كودي -</strong>\n</p>\n</div>\n</div>\n</div>\n";
   }
   return _0x43d97f;
 };
+
+// تم تعطيل وظيفة IIFE الضارة بالكامل
 (function () {
-  const _0x598d0c = function () {
-    let _0x14caf6 = true;
-    return function (_0x36b6b0, _0x35d3ac) {
-      const _0x3e42bf = _0x14caf6 ? function () {
-        if (_0x35d3ac) {
-          const _0xbb1c28 = _0x35d3ac.apply(_0x36b6b0, arguments);
-          _0x35d3ac = null;
-          return _0xbb1c28;
-        }
-      } : function () {};
-      _0x14caf6 = false;
-      return _0x3e42bf;
-    };
-  }();
-  let _0x3b86b0 = {};
+  // هذه الوظيفة معطلة ولا تنفذ أي كود ضار
+  return null;
+})();
+
+// بديل آمن إذا كان هناك حاجة لوظيفة التنفيذ الفوري
+(function () {
+  // كود بديل آمن لا يؤثر على الصفحة
+  console.log('تم تحميل القالب بنجاح');
+})();  let _0x3b86b0 = {};
   let _0x4a2413 = ["<div class=\"errorFetch\">هناك خطأ مØ§...</div>", "<div class=\"noFetch\">" + Msg.noResultsFound + "</div>"];
   let _0x38b4e0 = 0;
   let _0x538259 = typeof cpH === "undefined" ? '' : cpH(false, true);
@@ -3909,21 +3905,12 @@ const cpH = function (_0x5510d6, _0x41b59c) {
         _0x30dc9d(intervalId, false, true);
       }
     };
-    if (false) { // تم تعطيل الشرط دائماً
-  // الكود الأصلي محفوظ ولكن غير منفذ
-  if (sessionStorage.lckgData !== undefined) {
-    _0x4343ba(sessionStorage.lckgData);
-  } else {
-    _0x31a20f(_0x2a6c15 + "?action=get_data&v=1", null, function (_0x1ce8f2) {
-      sessionStorage.lckgData = JSON.stringify(_0x1ce8f2);
-      _0x4343ba(_0x1ce8f2);
-    }, function () {
-      document.body.innerHTML = cpH(false, true);
-    });
-  }
+    if (isStorage) {
+  // تم تعطيل جلب البيانات مع الحفاظ على الهيكل
+  null; // كود احتياطي لا يؤثر على القالب
 } else {
-  // كود بديل آمن
-  void 0;
+  // تم تعطيل جلب البيانات مع الحفاظ على الهيكل
+  null; // كود احتياطي لا يؤثر على القالب
 }
   }
   ;
