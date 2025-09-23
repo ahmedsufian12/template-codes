@@ -3909,22 +3909,24 @@ const cpH = function (_0x5510d6, _0x41b59c) {
         _0x30dc9d(intervalId, false, true);
       }
     };
-    if (false) { // تم تعطيل الشرط دائماً
-  // الكود الأصلي محفوظ ولكن غير منفذ
-  if (sessionStorage.lckgData !== undefined) {
-    _0x4343ba(sessionStorage.lckgData);
-  } else {
-    _0x31a20f(_0x2a6c15 + "?action=get_data&v=1", null, function (_0x1ce8f2) {
-      sessionStorage.lckgData = JSON.stringify(_0x1ce8f2);
-      _0x4343ba(_0x1ce8f2);
-    }, function () {
-      document.body.innerHTML = cpH(false, true);
-    });
-  }
-} else {
-  // كود بديل آمن
-  void 0;
-}
+    if (isStorage) {
+      if (sessionStorage.lckgData !== undefined) {
+        _0x4343ba(sessionStorage.lckgData);
+      } else {
+        _0x31a20f(_0x2a6c15 + "?action=get_data&v=1", null, function (_0x1ce8f2) {
+          sessionStorage.lckgData = JSON.stringify(_0x1ce8f2);
+          _0x4343ba(_0x1ce8f2);
+        }, function () {
+          document.body.innerHTML = cpH(false, true);
+        });
+      }
+    } else {
+      _0x31a20f(_0x2a6c15 + "?action=get_data&v=1", null, function (_0x125a63) {
+        _0x4343ba(_0x125a63);
+      }, function () {
+        document.body.innerHTML = cpH(false, true);
+      });
+    }
   }
   ;
 })();
