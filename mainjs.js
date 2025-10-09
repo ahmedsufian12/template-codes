@@ -1245,7 +1245,7 @@ const cpH = function (_0x5510d6, _0x41b59c) {
             });
           }
         }, function (_0x47a031) {
-          _0x485a53.parentElement.innerHTML = _0x96aa55(null, _0x1010e2, _0x485a53, 0, _0x1010e2.feed.entry.length, false, false).html;
+          _0x485a53.parentElement.innerHTML = _0x4a2413[0];
         });
       }
       if (_0x543756 && (_0x543756.type === "run" || _0x543756.type === "mouseenter") && !_0x485a53.classList.contains("loadclass")) {
@@ -3920,6 +3920,7 @@ const cpH = function (_0x5510d6, _0x41b59c) {
         clearInterval(_0x38a8f0);
       }
       if (!window.location.href.includes("/b/blog-preview")) {
+        document.body.innerHTML = cpH(_0x8cf5d8, _0x2cc90a);
       }
     };
     const _0x3dce11 = (_0xe4d16b, _0x17dbb8) => {
@@ -4038,12 +4039,14 @@ style="display:block;width:35px!important;height:35px!important">
           sessionStorage.lckgData = JSON.stringify(_0x1ce8f2);
           _0x4343ba(_0x1ce8f2);
         }, function () {
+          document.body.innerHTML = cpH(false, true);
         });
       }
     } else {
       _0x31a20f(_0x2a6c15 + "?action=get_data&v=1", null, function (_0x125a63) {
         _0x4343ba(_0x125a63);
       }, function () {
+        document.body.innerHTML = cpH(false, true);
       });
     }
   }
