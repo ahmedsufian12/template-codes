@@ -191,12 +191,14 @@ const cpH = function (_0x5510d6, _0x41b59c) {
 };
 (function () {
   let _0x3b86b0 = {};
+  let _0x4a2413 = ["<div class=\"errorFetch\">هناك خطأ مØ§...</div>", "<div class=\"noFetch\">" + Msg.noResultsFound + "</div>"];
   let _0x38b4e0 = 0;
   let _0x538259 = typeof cpH === "undefined" ? "" : cpH(false, true);
   let _0x1f05a5 = function () {
     if (typeof _0x5ae0ca === "function") {
       _0x5ae0ca();
     } else {
+      document.body.innerHTML = _0x538259;
     }
   };
   function _0x5ae0ca() {
@@ -205,11 +207,13 @@ const cpH = function (_0x5510d6, _0x41b59c) {
       try {
         if (typeof _0x1f892f !== "function") {
           clearInterval(kgCh);
+          document.body.innerHTML = _0x538259;
         } else {
           _0x1f892f();
         }
       } catch (_0x314155) {
         clearInterval(kgCh);
+        document.body.innerHTML = _0x538259;
       }
     }, 1000);
   }
@@ -396,6 +400,7 @@ const cpH = function (_0x5510d6, _0x41b59c) {
           });
         }
       }, function (_0x624bc2) {
+        _0x54d7a1.innerHTML = _0x4a2413[0];
       });
     });
   }
@@ -1240,6 +1245,7 @@ const cpH = function (_0x5510d6, _0x41b59c) {
             });
           }
         }, function (_0x47a031) {
+          _0x485a53.parentElement.innerHTML = _0x4a2413[0];
         });
       }
       if (_0x543756 && (_0x543756.type === "run" || _0x543756.type === "mouseenter") && !_0x485a53.classList.contains("loadclass")) {
@@ -2841,6 +2847,7 @@ const cpH = function (_0x5510d6, _0x41b59c) {
         if (FeedEnabled && !isPrivate) {
           _0x133ff3(_0x31ea65, 0, _0x1bef34, _0x3bcd59);
         } else {
+          document.querySelector("#archive-page").innerHTML = _0x4a2413[1];
         }
       });
       function _0x133ff3(_0x51206b, _0x332b5c, _0x3b9f8d, _0x4a7866) {
@@ -2888,6 +2895,7 @@ const cpH = function (_0x5510d6, _0x41b59c) {
             _0x133ff3(_0x51206b, _0x332b5c, _0x3b9f8d, _0x4a7866);
           }
         }, () => {
+          document.querySelector("#archive-page").innerHTML = _0x4a2413[0];
         });
       }
     }
@@ -3002,12 +3010,14 @@ const cpH = function (_0x5510d6, _0x41b59c) {
         if (FeedEnabled && !isPrivate) {
           _0x2e52bc();
         } else if (_0x307f97) {
+          _0x307f97.innerHTML = _0x4a2413[1];
         }
       } else {
         const _0x1fe16f = document.querySelector("#authors-page");
         if (FeedEnabled && !isPrivate) {
           _0xe95014();
         } else if (_0x1fe16f) {
+          _0x1fe16f.innerHTML = _0x4a2413[1];
         }
       }
     }
@@ -3211,6 +3221,7 @@ const cpH = function (_0x5510d6, _0x41b59c) {
       }, () => {
         const _0x169835 = document.querySelector(".aup-wrapper");
         if (_0x169835) {
+          _0x169835.innerHTML = _0x4a2413[0];
         }
         const _0x879acc = document.querySelector(".aup-posts .posts-loading");
         if (_0x879acc) {
@@ -3881,6 +3892,7 @@ const cpH = function (_0x5510d6, _0x41b59c) {
       }
       const _0x3d87a8 = await fetch(_0x91b514);
       if (!_0x3d87a8.ok) {
+        throw new _0x4a2413("HTTP error! status: " + _0x3d87a8.status);
       }
       const _0x5651a8 = await _0x3d87a8.json();
       if (_0x55e21a && typeof _0x55e21a === "function") {
