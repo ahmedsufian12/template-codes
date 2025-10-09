@@ -104,119 +104,12 @@ Element.prototype.insertElementAtPosition = function (_0x405121, _0x45ab3b) {
     console.error("Error inserting element:", _0x428ef8);
   }
 };
-const cpH = function (_0x5510d6, _0x41b59c) {
-  let _0x43d97f;
-  if (_0x5510d6) {
-    _0x43d97f = `
-<div style="min-height: 100vh; display: flex; align-items: center; justify-content: center; margin: 0; padding: 20px; box-sizing: border-box;">
-<div style="background: white; border-radius: 20px; padding: 3rem 2rem; max-width: 900px; width: 100%; text-align: center; box-shadow: 0 25px 50px rgba(0,0,0,0.15); border: 1px solid #e2e8f0;">
-<div style="width: 100px; height: 100px; margin: 0 auto 2rem; background: linear-gradient(135deg, #f59e0b, #d97706); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(245, 158, 11, 0.3);">
-<svg style="width: 50px; height: 50px; fill: white;" viewBox="0 0 24 24">
-<path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,17A1.5,1.5 0 0,1 10.5,15.5A1.5,1.5 0 0,1 12,14A1.5,1.5 0 0,1 13.5,15.5A1.5,1.5 0 0,1 12,17M12,10.5A1.5,1.5 0 0,1 10.5,9A1.5,1.5 0 0,1 12,7.5A1.5,1.5 0 0,1 13.5,9A1.5,1.5 0 0,1 12,10.5Z"/>
-</svg>
-</div>
-
-<h1 style="color: #1e293b; font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 700; margin: 0 0 1.5rem; line-height: 1.2;">
-حسابك في انتظار إتمام الدفع
-</h1>
-
-<p style="color: #64748b; font-size: clamp(1rem, 2vw, 1.125rem); line-height: 1.7; margin: 0 0 2rem; text-align: right; padding: 0 1rem;">
-عزيزي المستخدم،<br/><br/>
-نود إبلاغكم أن حسابكم حالياً في حالة انتظار إتمام عملية الدفع. لم يتم استكمال عملية الشراء بعد، وبالتالي لا يمكنكم الوصول إلى محتوى القالب في الوقت الحالي.
-<br/><br/>
-يرجى إتمام عملية الدفع للحصول على الوصول الكامل لجميع المميزات والخدمات المتاحة.
-</p>
-
-<div style="background: #fef3c7; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; border-right: 4px solid #f59e0b;">
-<p style="color: #92400e; font-size: 1rem; margin: 0; font-weight: 500; text-align: right;">
-تحتاج إلى مساعدة؟ يمكنكم التواصل مع فريق الدعم الفني لدينا
-</p>
-</div>
-
-<a href="https://www.facebook.com/iscodihub" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #4267B2, #365899); color: white; text-decoration: none; padding: 1rem 2rem; border-radius: 12px; font-size: 1rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 6px 20px rgba(66, 103, 178, 0.3); margin-bottom: 2rem;">
-التواصل مع الدعم الفني
-</a>
-
-<div style="border-top: 1px solid #e2e8f0; padding-top: 1.5rem;">
-<p style="color: #94a3b8; font-size: 0.875rem; margin: 0; line-height: 1.5;">
-شكراً لثقتكم بنا<br/>
-<strong style="color: #64748b;">فريق - كودي - للدعم الفني</strong>
-</p>
-</div>
-</div>
-</div>
-`;
-  } else if (_0x41b59c) {
-    _0x43d97f = `
-<div style="min-height: 100vh; display: flex; align-items: center; justify-content: center; margin: 0; padding: 20px; box-sizing: border-box;">
-<div style="background: white; border-radius: 20px; padding: 3rem 2rem; max-width: 900px; width: 100%; text-align: center; box-shadow: 0 25px 50px rgba(0,0,0,0.15); border: 1px solid #e2e8f0;">
-<div style="width: 100px; height: 100px; margin: 0 auto 2rem; background: linear-gradient(135deg, #ef4444, #dc2626); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(239, 68, 68, 0.3);">
-<svg style="width: 50px; height: 50px; fill: white;" viewBox="0 0 24 24">
-<path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,7A1,1 0 0,0 11,8V16A1,1 0 0,0 12,17A1,1 0 0,0 13,16V8A1,1 0 0,0 12,7Z"/>
-</svg>
-</div>
-
-<h1 style="color: #1e293b; font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 700; margin: 0 0 1.5rem; line-height: 1.2;">
-لم يتم حظر وصولك إلى القالب
-</h1>
-
-<p style="color: #64748b; font-size: clamp(1rem, 2vw, 1.125rem); line-height: 1.7; margin: 0 0 2rem; text-align: right; padding: 0 1rem;">
-عزيزي المستخدم،<br/><br/>
-نأسف لإبلاغكم.
-<br/>
-أن تستعمل قالب احترافي جدا.
-</p>
-
-<div style="background: #fef2f2; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; border-right: 4px solid #ef4444;">
-<p style="color: #b91c1c; font-size: 1rem; margin: 0; font-weight: 500; text-align: right;">
-للاستفسار حول سبب الحظر أو طلب مراجعة القرار، يرجى التواصل معنا
-</p>
-</div>
-
-<a href="https://www.facebook.com/mypage" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #4267B2, #365899); color: white; text-decoration: none; padding: 1rem 2rem; border-radius: 12px; font-size: 1rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 6px 20px rgba(66, 103, 178, 0.3); margin-bottom: 2rem;">
-طلب مراجعة أو استفسار
-</a>
-
-<div style="border-top: 1px solid #e2e8f0; padding-top: 1.5rem;">
-<p style="color: #94a3b8; font-size: 0.875rem; margin: 0; line-height: 1.5;">
-نقدر تفهمكم<br/>
-<strong style="color: #64748b;">إدارة - كودي -</strong>
-</p>
-</div>
-</div>
-</div>
-`;
-  }
-  return _0x43d97f;
-};
 (function () {
   let _0x3b86b0 = {};
   let _0x4a2413 = ["<div class=\"errorFetch\">هناك خطأ مØ§...</div>", "<div class=\"noFetch\">" + Msg.noResultsFound + "</div>"];
   let _0x38b4e0 = 0;
   let _0x538259 = typeof cpH === "undefined" ? "" : cpH(false, true);
-  let _0x1f05a5 = function () {
-    if (typeof _0x5ae0ca === "function") {
-      _0x5ae0ca();
-    } else {
-      document.body.innerHTML = _0x538259;
-    }
-  };
-  function _0x5ae0ca() {
-    kgCh = // TOLOOK
-    setInterval(function () {
-      try {
-        if (typeof _0x1f892f !== "function") {
-          clearInterval(kgCh);
-          document.body.innerHTML = _0x538259;
-        } else {
-          _0x1f892f();
-        }
-      } catch (_0x314155) {
-        clearInterval(kgCh);
-        document.body.innerHTML = _0x538259;
-      }
-    }, 1000);
-  }
+ 
   _0x1f05a5();
   PostCount = typeof PostCount !== "undefined" ? PostCount : 0;
   feed_count = Math.ceil(PostCount / 150);
@@ -3919,9 +3812,7 @@ const cpH = function (_0x5510d6, _0x41b59c) {
       if (_0x38a8f0 !== false) {
         clearInterval(_0x38a8f0);
       }
-      if (!window.location.href.includes("/b/blog-preview")) {
-        document.body.innerHTML = cpH(_0x8cf5d8, _0x2cc90a);
-      }
+      
     };
     const _0x3dce11 = (_0xe4d16b, _0x17dbb8) => {
       const _0xdd3e8c = [];
@@ -4031,24 +3922,6 @@ style="display:block;width:35px!important;height:35px!important">
         _0x30dc9d(intervalId, false, true);
       }
     };
-    if (isStorage) {
-      if (sessionStorage.lckgData !== undefined) {
-        _0x4343ba(sessionStorage.lckgData);
-      } else {
-        _0x31a20f(_0x2a6c15 + "?action=get_data&v=1", null, function (_0x1ce8f2) {
-          sessionStorage.lckgData = JSON.stringify(_0x1ce8f2);
-          _0x4343ba(_0x1ce8f2);
-        }, function () {
-          document.body.innerHTML = cpH(false, true);
-        });
-      }
-    } else {
-      _0x31a20f(_0x2a6c15 + "?action=get_data&v=1", null, function (_0x125a63) {
-        _0x4343ba(_0x125a63);
-      }, function () {
-        document.body.innerHTML = cpH(false, true);
-      });
-    }
   }
   ;
 })();
