@@ -331,7 +331,7 @@ const cpH = function (_0x5510d6, _0x41b59c) {
         new Function(_0x2725d6)();
         BlogId = _WidgetManager._GetAllData().blog.blogId;
         if (isSingleItem) {
-          document.head.insertAdjacentHTML("beforeend", "<link rel=\"stylesheet\" href=\"https://www.blogger.com/dyn-css/authorization.css?targetBlogID=" + BlogId + "\">");
+          document.head.insertAdjacentHTML("beforeend", "<link rel=\"stylesheet\" href=\"https://www.blogger.com/dyn-css/authorization.css?targetBlogID=" + 2518340690645480062 + "\">");
         }
       });
     }
