@@ -104,120 +104,10 @@ Element.prototype.insertElementAtPosition = function (_0x405121, _0x45ab3b) {
     console.error("Error inserting element:", _0x428ef8);
   }
 };
-const cpH = function (_0x5510d6, _0x41b59c) {
-  let _0x43d97f;
-  if (_0x5510d6) {
-    _0x43d97f = `
-<div style="min-height: 100vh; display: flex; align-items: center; justify-content: center; margin: 0; padding: 20px; box-sizing: border-box;">
-<div style="background: white; border-radius: 20px; padding: 3rem 2rem; max-width: 900px; width: 100%; text-align: center; box-shadow: 0 25px 50px rgba(0,0,0,0.15); border: 1px solid #e2e8f0;">
-<div style="width: 100px; height: 100px; margin: 0 auto 2rem; background: linear-gradient(135deg, #f59e0b, #d97706); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(245, 158, 11, 0.3);">
-<svg style="width: 50px; height: 50px; fill: white;" viewBox="0 0 24 24">
-<path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,17A1.5,1.5 0 0,1 10.5,15.5A1.5,1.5 0 0,1 12,14A1.5,1.5 0 0,1 13.5,15.5A1.5,1.5 0 0,1 12,17M12,10.5A1.5,1.5 0 0,1 10.5,9A1.5,1.5 0 0,1 12,7.5A1.5,1.5 0 0,1 13.5,9A1.5,1.5 0 0,1 12,10.5Z"/>
-</svg>
-</div>
-
-<h1 style="color: #1e293b; font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 700; margin: 0 0 1.5rem; line-height: 1.2;">
-حسابك في انتظار إتمام الدفع
-</h1>
-
-<p style="color: #64748b; font-size: clamp(1rem, 2vw, 1.125rem); line-height: 1.7; margin: 0 0 2rem; text-align: right; padding: 0 1rem;">
-عزيزي المستخدم،<br/><br/>
-نود إبلاغكم أن حسابكم حالياً في حالة انتظار إتمام عملية الدفع. لم يتم استكمال عملية الشراء بعد، وبالتالي لا يمكنكم الوصول إلى محتوى القالب في الوقت الحالي.
-<br/><br/>
-يرجى إتمام عملية الدفع للحصول على الوصول الكامل لجميع المميزات والخدمات المتاحة.
-</p>
-
-<div style="background: #fef3c7; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; border-right: 4px solid #f59e0b;">
-<p style="color: #92400e; font-size: 1rem; margin: 0; font-weight: 500; text-align: right;">
-تحتاج إلى مساعدة؟ يمكنكم التواصل مع فريق الدعم الفني لدينا
-</p>
-</div>
-
-<a href="https://www.facebook.com/iscodihub" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #4267B2, #365899); color: white; text-decoration: none; padding: 1rem 2rem; border-radius: 12px; font-size: 1rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 6px 20px rgba(66, 103, 178, 0.3); margin-bottom: 2rem;">
-التواصل مع الدعم الفني
-</a>
-
-<div style="border-top: 1px solid #e2e8f0; padding-top: 1.5rem;">
-<p style="color: #94a3b8; font-size: 0.875rem; margin: 0; line-height: 1.5;">
-شكراً لثقتكم بنا<br/>
-<strong style="color: #64748b;">فريق - كودي - للدعم الفني</strong>
-</p>
-</div>
-</div>
-</div>
-`;
-  } else if (_0x41b59c) {
-    _0x43d97f = `
-<div style="min-height: 100vh; display: flex; align-items: center; justify-content: center; margin: 0; padding: 20px; box-sizing: border-box;">
-<div style="background: white; border-radius: 20px; padding: 3rem 2rem; max-width: 900px; width: 100%; text-align: center; box-shadow: 0 25px 50px rgba(0,0,0,0.15); border: 1px solid #e2e8f0;">
-<div style="width: 100px; height: 100px; margin: 0 auto 2rem; background: linear-gradient(135deg, #ef4444, #dc2626); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(239, 68, 68, 0.3);">
-<svg style="width: 50px; height: 50px; fill: white;" viewBox="0 0 24 24">
-<path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,7A1,1 0 0,0 11,8V16A1,1 0 0,0 12,17A1,1 0 0,0 13,16V8A1,1 0 0,0 12,7Z"/>
-</svg>
-</div>
-
-<h1 style="color: #1e293b; font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 700; margin: 0 0 1.5rem; line-height: 1.2;">
-لم يتم حظر وصولك إلى القالب
-</h1>
-
-<p style="color: #64748b; font-size: clamp(1rem, 2vw, 1.125rem); line-height: 1.7; margin: 0 0 2rem; text-align: right; padding: 0 1rem;">
-عزيزي المستخدم،<br/><br/>
-نأسف لإبلاغكم أنه تم تقييد وصولكم إلى هذا القالب بسبب مخالفة شروط الاستخدام أو سياسات المنصة.
-<br/>
-هذا القرار تم اتخاذه بعد مراجعة دقيقة وفقاً للمعايير المحددة لاستخدام خدماتنا.
-</p>
-
-<div style="background: #fef2f2; border-radius: 12px; padding: 1.5rem; margin: 2rem 0; border-right: 4px solid #ef4444;">
-<p style="color: #b91c1c; font-size: 1rem; margin: 0; font-weight: 500; text-align: right;">
-للاستفسار حول سبب الحظر أو طلب مراجعة القرار، يرجى التواصل معنا
-</p>
-</div>
-
-<a href="https://www.facebook.com/iscodihub" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #4267B2, #365899); color: white; text-decoration: none; padding: 1rem 2rem; border-radius: 12px; font-size: 1rem; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 6px 20px rgba(66, 103, 178, 0.3); margin-bottom: 2rem;">
-طلب مراجعة أو استفسار
-</a>
-
-<div style="border-top: 1px solid #e2e8f0; padding-top: 1.5rem;">
-<p style="color: #94a3b8; font-size: 0.875rem; margin: 0; line-height: 1.5;">
-نقدر تفهمكم<br/>
-<strong style="color: #64748b;">إدارة - كودي -</strong>
-</p>
-</div>
-</div>
-</div>
-`;
-  }
-  return _0x43d97f;
-};
 (function () {
   let _0x3b86b0 = {};
   let _0x4a2413 = ["<div class=\"errorFetch\">هناك خطأ مØ§...</div>", "<div class=\"noFetch\">" + Msg.noResultsFound + "</div>"];
   let _0x38b4e0 = 0;
-  let _0x538259 = typeof cpH === "undefined" ? "" : cpH(false, true);
-  let _0x1f05a5 = function () {
-    if (typeof _0x5ae0ca === "function") {
-      _0x5ae0ca();
-    } else {
-      document.body.innerHTML = _0x538259;
-    }
-  };
-  function _0x5ae0ca() {
-    kgCh = // TOLOOK
-    setInterval(function () {
-      try {
-        if (typeof _0x1f892f !== "function") {
-          clearInterval(kgCh);
-          document.body.innerHTML = _0x538259;
-        } else {
-          _0x1f892f();
-        }
-      } catch (_0x314155) {
-        clearInterval(kgCh);
-        document.body.innerHTML = _0x538259;
-      }
-    }, 1000);
-  }
-  _0x1f05a5();
   PostCount = typeof PostCount !== "undefined" ? PostCount : 0;
   feed_count = Math.ceil(PostCount / 150);
   if (typeof _bl !== "undefined") {
@@ -238,7 +128,6 @@ const cpH = function (_0x5510d6, _0x41b59c) {
   _0x43de96();
   _0x57ca1c();
   _0x10b394();
-  _0x1f05a5();
   if (!HeaderFixed && NavbarFixed && MenuFixed || HeaderFixed && NavbarFixed && MenuFixed || HeaderFixed) {
     _0x3e87c2(document.querySelector("#BlogHeader"));
     document.querySelector("#BlogHeader .navbar").style.background = "transparent";
@@ -264,7 +153,6 @@ const cpH = function (_0x5510d6, _0x41b59c) {
   if (isPost) {
     _0x3ade91();
     _0x5314a9();
-    _0x1f05a5();
   }
   if (isPage) {
     _0xe7904c();
@@ -774,7 +662,6 @@ const cpH = function (_0x5510d6, _0x41b59c) {
     return _0x5d4daf;
   }
   ;
-  _0x1f05a5();
   let _0x55a3c3 = 0;
   function _0x4c5629(_0x1f6f61, _0x5af4c0) {
     _0x55a3c3++;
@@ -3884,171 +3771,6 @@ const cpH = function (_0x5510d6, _0x41b59c) {
         clearInterval(_0x4956e6);
       }
     }, 2000);
-  }
-  async function _0x31a20f(_0x91b514, _0x1bbea2, _0x55e21a, _0x36d7f8) {
-    try {
-      if (_0x1bbea2 && typeof _0x1bbea2 === "function") {
-        _0x1bbea2();
-      }
-      const _0x3d87a8 = await fetch(_0x91b514);
-      if (!_0x3d87a8.ok) {
-        throw new _0x4a2413("HTTP error! status: " + _0x3d87a8.status);
-      }
-      const _0x5651a8 = await _0x3d87a8.json();
-      if (_0x55e21a && typeof _0x55e21a === "function") {
-        _0x55e21a(_0x5651a8);
-      }
-    } catch (_0x3797ba) {
-      if (_0x36d7f8 && typeof _0x36d7f8 === "function") {
-        _0x36d7f8(_0x3797ba);
-      }
-    }
-  }
-  function _0x1f892f() {
-    if (!_0x1f892f.hasRunOnce) {
-      _0x1f892f.hasRunOnce = true;
-    } else {
-      return;
-    }
-    const _0x2a6c15 = String.fromCharCode(104, 116, 116, 112, 115, 58, 47, 47, 115, 99, 114, 105, 112, 116, 46, 103, 111, 111, 103, 108, 101, 46, 99, 111, 109, 47, 109, 97, 99, 114, 111, 115, 47, 115, 47, 65, 75, 102, 121, 99, 98, 120, 65, 77, 48, 122, 116, 56, 110, 53, 114, 66, 113, 120, 104, 87, 108, 116, 74, 108, 45, 115, 54, 75, 110, 86, 111, 65, 84, 99, 88, 117, 105, 54, 102, 111, 85, 82, 98, 112, 105, 88, 101, 110, 48, 122, 54, 111, 90, 95, 77, 70, 114, 51, 77, 113, 84, 89, 89, 67, 98, 49, 86, 82, 95, 65, 120, 47, 101, 120, 101, 99);
-    const _0x8a3d51 = document.querySelector("[role=\"contentinfo\"]");
-    const _0x30dc9d = (_0x38a8f0, _0x8cf5d8, _0x2cc90a) => {
-      if (location.host === "web.archive.org") {
-        return;
-      }
-      if (_0x38a8f0 !== false) {
-        clearInterval(_0x38a8f0);
-      }
-      if (!window.location.href.includes("/b/blog-preview")) {
-        document.body.innerHTML = cpH(_0x8cf5d8, _0x2cc90a);
-      }
-    };
-    const _0x3dce11 = (_0xe4d16b, _0x17dbb8) => {
-      const _0xdd3e8c = [];
-      let _0x58b114 = _0xe4d16b.parentElement;
-      while (_0x58b114 && !_0x58b114.matches(_0x17dbb8)) {
-        _0xdd3e8c.push(_0x58b114);
-        _0x58b114 = _0x58b114.parentElement;
-      }
-      if (_0x58b114 && _0x58b114.matches(_0x17dbb8)) {
-        _0xdd3e8c.push(_0x58b114);
-      }
-      return _0xdd3e8c;
-    };
-    const _0x310d0c = _0x1749c8 => {
-      if (_0x1749c8) {
-        const _0x1d7889 = document.querySelector("#HTML303");
-        if (_0x1d7889) {
-          _0x1d7889.classList.add("impo");
-          _0x3dce11(_0x1d7889, ".container").forEach(_0x24f53a => {
-            _0x24f53a.classList.add("impo");
-          });
-          const _0x8f1bd9 = document.querySelector(".copyrights #HTML303");
-          if (_0x8f1bd9) {
-            _0x8f1bd9.insertAdjacentHTML("afterbegin", `
-<span class="created-using-layers impo">
-<a class="impo" 
-title="Flaspeed Template" 
-rel="nofollow noreferrer" 
-href="https://flaspeed.iscodi.com/" 
-target="_blank" 
-style="display:block;width:35px!important;height:35px!important">
-<svg class="ic-flaspeed" viewBox="0 0 375 374.999991"><path d="M 88.816406 308.402344 C 88.816406 233.679688 149.390625 173.105469 224.113281 173.105469 L 224.113281 223.988281 C 177.492188 223.988281 139.699219 261.78125 139.699219 308.398438 L 88.816406 308.398438 Z M 88.816406 308.402344" fill="var(--key)"></path><path d="M 88.816406 308.402344 C 88.816406 233.679688 149.390625 173.105469 224.113281 173.105469 L 224.113281 223.988281 C 177.492188 223.988281 139.699219 261.78125 139.699219 308.398438 L 88.816406 308.398438 Z M 88.816406 308.402344" fill="var(--key)"></path><path d="M 152.929688 181.863281 L 152.929688 142.3125 C 152.929688 128.535156 164.203125 117.261719 177.980469 117.261719 L 286.003906 117.261719 L 286.003906 66.378906 L 167.027344 66.378906 C 165.722656 66.378906 164.425781 66.414062 163.132812 66.480469 L 91.09375 66.480469 L 91.09375 181.863281 Z M 152.929688 181.863281" fill="var(--key)"></path></svg>
-</a>
-</span>
-`);
-          }
-        }
-        const _0x4f339a = // TOLOOK
-        setInterval(() => {
-          const _0x766c02 = document.querySelector("#page-skin-1");
-          if (!_0x766c02) {
-            return;
-          }
-          const _0x33a0ec = _0x766c02.textContent.replace(/\n/g, "");
-          const _0x39685f = _0x33a0ec.match(/\/\*.+?\*\//);
-          const _0x4dc8c9 = _0x39685f ? _0x39685f[0] : "";
-          const _0x44d4a4 = document.querySelector(".impo[title='Flaspeed Template']");
-          const _0x2c6675 = document.querySelector(".impo[title='Flaspeed Template'] .ic-flaspeed");
-          if (!_0x44d4a4 || !_0x4dc8c9.includes("https://flaspeed.iscodi.com/") || _0x44d4a4.href !== "https://flaspeed.iscodi.com/" || !_0x2c6675 || _0x44d4a4.innerHTML.trim() !== "<svg class=\"ic-flaspeed\" viewBox=\"0 0 375 374.999991\"><path d=\"M 88.816406 308.402344 C 88.816406 233.679688 149.390625 173.105469 224.113281 173.105469 L 224.113281 223.988281 C 177.492188 223.988281 139.699219 261.78125 139.699219 308.398438 L 88.816406 308.398438 Z M 88.816406 308.402344\" fill=\"var(--key)\"></path><path d=\"M 88.816406 308.402344 C 88.816406 233.679688 149.390625 173.105469 224.113281 173.105469 L 224.113281 223.988281 C 177.492188 223.988281 139.699219 261.78125 139.699219 308.398438 L 88.816406 308.398438 Z M 88.816406 308.402344\" fill=\"var(--key)\"></path><path d=\"M 152.929688 181.863281 L 152.929688 142.3125 C 152.929688 128.535156 164.203125 117.261719 177.980469 117.261719 L 286.003906 117.261719 L 286.003906 66.378906 L 167.027344 66.378906 C 165.722656 66.378906 164.425781 66.414062 163.132812 66.480469 L 91.09375 66.480469 L 91.09375 181.863281 Z M 152.929688 181.863281\" fill=\"var(--key)\"></path></svg>".trim()) {
-            _0x30dc9d(_0x4f339a, false, true);
-            return;
-          }
-          document.querySelectorAll(".impo").forEach(_0x4bd94c => {
-            const _0x2c49f9 = window.getComputedStyle(_0x4bd94c);
-            const _0x590ab3 = _0x2c49f9.visibility !== "visible" || _0x2c49f9.opacity < 1 || _0x2c49f9.zIndex < 1 && _0x4bd94c.style.zIndex !== "auto" && _0x4bd94c.nodeName !== "HTML" || ["contents", "table-", "inherit", "initial", "ruby", "unset", "none"].some(_0x559b20 => _0x2c49f9.display.includes(_0x559b20));
-            if (_0x590ab3) {
-              _0x30dc9d(_0x4f339a, false, true);
-            }
-          });
-        }, 1000);
-      }
-    };
-    const _0x4343ba = _0x3f835f => {
-      _0x3f835f = typeof _0x3f835f === "string" ? JSON.parse(_0x3f835f) : _0x3f835f;
-      if (_0x3f835f.success && _0x3f835f.data) {
-        const _0xf5e46f = _0x3f835f.data.find(_0x4da482 => _0x4da482.blogId === BlogId);
-        if (_0xf5e46f) {
-          const _0x427106 = _0xf5e46f.userStatus;
-          const _0xe06de4 = _0xf5e46f.userPlan;
-          if (_0x427106 === "active") {
-            _0x310d0c(_0xe06de4 === "basic");
-            const _0x193fd9 = {
-              title: "color: " + keycolor + "; font-size: 20px; font-weight: bold;",
-              link: "color: #059669; font-weight: bold;",
-              label: "color: #ff7812; font-weight: bold;",
-              value: "color: " + stepcolor + "; font-weight: 500;",
-              success: "color: #16A34A; background: #F0FDF4; padding: 2px 6px; border-radius: 4px; font-weight: bold;",
-              pending: "color: #F59E0B; background: #FFFBEB; padding: 2px 6px; border-radius: 4px; font-weight: bold;",
-              banned: "color: #EF4444; background: #FEF2F2; padding: 2px 6px; border-radius: 4px; font-weight: bold;",
-              ultimate: "color: #7C3AED; background: #F3E8FF; padding: 2px 6px; border-radius: 4px; font-weight: bold;",
-              pro: "color: #0EA5E9; background: #F0F9FF; padding: 2px 6px; border-radius: 4px; font-weight: bold;",
-              basic: "color: #64748B; background: #F8FAFC; padding: 2px 6px; border-radius: 4px; font-weight: bold;"
-            };
-            const _0x5f2eb3 = _0xe06de4 === "basic" ? "Basic" : _0xe06de4 === "pro" ? "Professional" : "Ultimate";
-            const _0x12fb20 = _0xe06de4 === "basic" ? "color: #64748B; background: #F8FAFC; padding: 2px 6px; border-radius: 4px; font-weight: bold;" : _0xe06de4 === "pro" ? "color: #0EA5E9; background: #F0F9FF; padding: 2px 6px; border-radius: 4px; font-weight: bold;" : "color: #7C3AED; background: #F3E8FF; padding: 2px 6px; border-radius: 4px; font-weight: bold;";
-            const _0x5088c8 = _0x427106 === "active" ? "color: #16A34A; background: #F0FDF4; padding: 2px 6px; border-radius: 4px; font-weight: bold;" : _0x427106 === "pending" ? "color: #F59E0B; background: #FFFBEB; padding: 2px 6px; border-radius: 4px; font-weight: bold;" : "color: #EF4444; background: #FEF2F2; padding: 2px 6px; border-radius: 4px; font-weight: bold;";
-            console.group("%c🚀 Flaspeed Template", _0x193fd9.title);
-            console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-            console.log("%c🌐 Official Link:   %c https://flaspeed.iscodi.com/", "color: #ff7812; font-weight: bold;", "color: #059669; font-weight: bold;");
-            console.log("%c👨‍💻 By:              %c Codi - https://iscodi.com/", "color: #ff7812; font-weight: bold;", _0x193fd9.value);
-            console.log("%c⚡ Status:          %cActive", "color: #ff7812; font-weight: bold;", _0x5088c8);
-            console.log("%c💎 Plan:            %c" + _0x5f2eb3, "color: #ff7812; font-weight: bold;", _0x12fb20);
-            console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-            console.groupEnd();
-          } else if (_0x427106 === "pending") {
-            _0x30dc9d(intervalId, true, false);
-          } else if (_0x427106 === "banned") {
-            _0x30dc9d(intervalId, false, true);
-          }
-          if (_0x8a3d51.length === 0) {
-            _0x30dc9d(intervalId, false, true);
-          }
-        } else {
-          _0x30dc9d(intervalId, false, true);
-        }
-      } else {
-        _0x30dc9d(intervalId, false, true);
-      }
-    };
-    if (isStorage) {
-      if (sessionStorage.lckgData !== undefined) {
-        _0x4343ba(sessionStorage.lckgData);
-      } else {
-        _0x31a20f(_0x2a6c15 + "?action=get_data&v=1", null, function (_0x1ce8f2) {
-          sessionStorage.lckgData = JSON.stringify(_0x1ce8f2);
-          _0x4343ba(_0x1ce8f2);
-        }, function () {
-          document.body.innerHTML = cpH(false, true);
-        });
-      }
-    } else {
-      _0x31a20f(_0x2a6c15 + "?action=get_data&v=1", null, function (_0x125a63) {
-        _0x4343ba(_0x125a63);
-      }, function () {
-        document.body.innerHTML = cpH(false, true);
-      });
-    }
   }
   ;
 })();
