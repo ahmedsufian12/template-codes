@@ -3,12 +3,12 @@
   "short_name": "أفلام ستريم",
   "icons": [
     {
-      "src": "/favicon.ico",
+      "src": "https://www.aflam.stream/favicon.ico",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/favicon.ico",
+      "src": "https://www.aflam.stream/favicon.ico",
       "sizes": "512x512",
       "type": "image/png"
     }
