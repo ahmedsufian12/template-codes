@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "slug": "",
+      "title": "الرئيسية",
+      "content": "<h2>أهلاً بك</h2><p>هذا موقع معمول بالكامل من JSON 🔥</p>"
+    },
+    {
+      "slug": "about",
+      "title": "من نحن",
+      "content": "<h2>من نحن</h2><p>هذا مثال بسيط لموقع ديناميكي</p>"
+    },
+    {
+      "slug": "movie1",
+      "title": "فيلم 1",
+      "content": "<h2>فيلم 1</h2><p>وصف الفيلم هنا</p><video src='https://www.w3schools.com/html/mov_bbb.mp4' controls width='600'></video>"
+    },
+    {
+      "slug": "movie2",
+      "title": "فيلم 2",
+      "content": "<h2>فيلم 2</h2><p>وصف ثاني</p>"
+    }
+  ]
+}
